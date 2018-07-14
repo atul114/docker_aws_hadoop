@@ -35,7 +35,7 @@ print '<pre>'
 #print commands.getoutput('sudo aws ec2 describe-instances | grep PublicIpAddress | grep -o -P "\d+\.\d+\.\d+\.\d+" | grep -v "^10\."')
 #print commands.getoutput('aws ec2 run-instances --image-id ami-6f68cf0f --count 1 --instance-type t2.micro --key-name 2ndjune --security-group-ids launch-wizard-5 --region us-west-2')
 #f.close()
-kk= commands.getoutput(' sudo docker run -itd -v /var/www/html/upload:/var/www/html/upload 7258716cad97 ')
+kk= commands.getoutput(' sudo docker run -itd -v /var/www/html/upload:/var/www/html/upload 4cf714dd5507 ')
 print kk
 f=open('dockernamenode','w')
 f.write(kk)

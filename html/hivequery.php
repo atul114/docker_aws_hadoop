@@ -1,4 +1,25 @@
 <?php
+
+
+
+print '<head>';
+  print '<title>List of services provided : </title>';
+  print '<meta charset="utf-8">';
+  print '<meta name="viewport" content="width=device-width, initial-scale=1">';
+  print '<link rel="stylesheet" href="/static/c1.css">';
+  print '<script src="/static/j2.js"></script>';
+  print '<script src="/static/j3.js"></script>';
+print '</head>';
+print '<style type="text/css">';
+print 'body{
+background-color: #b0e0e6;
+padding 20px;
+}';
+print '</style>';
+print '<body>';
+print '<div class="container">';
+print '<h2>YOUR OPTIONS ARE:-</h2>';
+print '<p>Choose the desired</p>';
 $a1=$_GET['usrname'];
 #echo $a1;
 $a2=$_GET['comment'];
@@ -24,5 +45,9 @@ echo $output;
 #echo "$output";
 echo "</pre>";
 
+print '<form method="post" action="/cgi-bin/hivequerystart.py">';
+print '<label><input type="submit" value="Click to go back"></label>';
+print '</form>';
+print '</body>';
 
 ?>

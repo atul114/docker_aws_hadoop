@@ -239,7 +239,7 @@ def sixteen():
 	print commands.getoutput(" sudo ssh -o StrictHostKeyChecking=no -i /root/Downloads/2ndjune.pem ec2-user@"+pi+' sudo -i hdfs dfsadmin -report | head -9')
 	print '</pre>'
 def seventeen():
-	print '<meta http-equiv=REFRESH CONTENT=0;url=/phphtml.html>'
+	print '<meta http-equiv=REFRESH CONTENT=0;url=/@awsphphtml.html>'
 	
 def eighteen():
 	print "oo"

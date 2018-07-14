@@ -17,6 +17,12 @@ yyy='''
   <script src="/static/j2.js"></script>
   <script src="/static/j3.js"></script>
 </head>
+<style type="text/css">
+body{
+background-color: #b0e0e6;
+padding 20px;
+}
+</style>
 <body>
 <div class="container">
 <h2>TYPE YOUR QUERY!!!:-</h2>
